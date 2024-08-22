@@ -1,6 +1,6 @@
 ---
 title: Applications Track
-description: Description for the applications track is about two lines / 1 sentence and is a breif explanation of the track.
+description: TODO: Description for the benchmarks track is about one to two sentences and serves as a brief explanation of the track.
 date: 2020-01-04 14:40:45
 ---
 
