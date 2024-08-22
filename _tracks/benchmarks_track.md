@@ -18,6 +18,7 @@ date: 2020-01-04 14:40:45
         </li>
          <li>
             Regulatory compliance: <a href="https://www.norm.ai/">norm.ai</a> 
+        </li>
       </ul>
    </li>    
 </ul>
