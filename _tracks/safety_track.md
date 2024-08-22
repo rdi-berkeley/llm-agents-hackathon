@@ -1,5 +1,5 @@
 ---
-title: Fundamentals Track
+title: Safety Track
 description: TODO Description for the safety track is about one to two sentences and serves as a brief explanation of the track.
 date: 2020-01-04 14:40:45
 ---
@@ -8,98 +8,122 @@ date: 2020-01-04 14:40:45
   <h1 style="font-weight: bold; font-size: 3em; color: #CB9445;">Program Task Description</h1>
 </div>
 
-<h2>Category 1: Memory, Planning, Reasoning</h2>
+<h2>Category 1: Preventing Accidental Misuse</h2>
 <ul>
    <li>
-      Can you create agent frameworks that improve on existing agent fundamental benchmarks, such as <a href="https://alfworld.github.io/">ALFWorld</a> or <a href="https://hotpotqa.github.io/">HotpotQA</a>? 
+      How will hallucinations and bias in LLM agents differ from typical LLMs? What novel mitigations do we need to develop? 
       <ul>
          <li>
-            Design a prompting scheme that improves an agent’s ability to recover from errors during deployment  
+            example  
         </li>
+      </ul>
+   </li>
+    <li>
+      What are some unintended consequences of deploying LLM agents? 
+      <ul>
          <li>
-            <a href="https://arxiv.org/abs/2203.14465">[2203.14465] STaR: Bootstrapping Reasoning With Reasoning</a> 
-        </li>
-         <li>
-           <a href="https://arxiv.org/abs/2210.03629">[2210.03629] ReAct: Synergizing Reasoning and Acting in Language Models</a>
-         </li>
-         <li>
-           <a href="https://arxiv.org/abs/2211.01910">[2211.01910] Large Language Models Are Human-Level Prompt Engineers</a>
-         </li>
-         <li>
-           <a href="https://arxiv.org/abs/2303.11366">[2303.11366] Reflexion: Language Agents with Verbal Reinforcement Learning</a>
-         </li>
-        <li>
-          <a href="https://arxiv.org/abs/2303.17651">[2303.17651] Self-Refine: Iterative Refinement with Self-Feedback</a>
-        </li>
-        <li>
-          <a href="https://arxiv.org/abs/2304.05128">[2304.05128] Teaching Large Language Models to Self-Debug</a>
-        </li>
-       <li>
-          <a href="https://arxiv.org/abs/2305.10601">[2305.10601] Tree of Thoughts: Deliberate Problem Solving with Large Language Models</a>
-        </li>
-       <li>
-          <a href="https://arxiv.org/abs/2309.03409">[2309.03409] Large Language Models as Optimizers</a>
-        </li>
-       <li>
-          <a href="https://arxiv.org/abs/2312.07540">[2312.07540] diff History for Neural Language Agents</a>
+            example  
         </li>
       </ul>
    </li>
 </ul>
 
-<h2>Category 2: Tool-Use, Function-Calling, RAG</h2>
+<h2>Category 2: Preventing Malicious Use</h2>
 <ul>
    <li>
-      How should best LLMs interact with tools such as retrieval and code? 
+      How do we attack and defend LLM agents? Will this paradigm differ from standard jailbreaking of LLMs? 
       <ul>
          <li>
-            Improve upon the ideas in <a href="https://gorilla.cs.berkeley.edu/">Gorilla</a> through prompting  
+            example  
         </li>
+      </ul>
+   </li>
+  <li>
+      What privacy challenges will LLM agents face? How can we mitigate these? 
+      <ul>
          <li>
-            <a href="https://arxiv.org/abs/2302.04761">[2302.04761] Toolformer: Language Models Can Teach Themselves to Use Tools</a> 
+            example  
         </li>
+      </ul>
+   </li>
+  <li>
+      How do we prevent LLM agents from being directed to create bioweapons or cyberweapons? 
+      <ul>
          <li>
-           <a href="https://arxiv.org/abs/2302.07842">[2302.07842] Augmented Language Models: a Survey</a>
-         </li>
-        <li>
-           <a href="https://arxiv.org/abs/2304.05376">[2304.05376] ChemCrow: Augmenting large-language models with chemistry tools</a>
-         </li>
-        <li>
-           <a href="https://arxiv.org/abs/2303.17580">[2303.17580] HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face</a>
-         </li>
-       <li>
-           <a href="https://arxiv.org/abs/2305.17126">[2305.17126] Large Language Models as Tool Makers</a>
-         </li>
-       <li>
-           <a href="https://arxiv.org/abs/2305.06983">[2305.06983] Active Retrieval Augmented Generation</a>
-         </li>
-       <li>
-           <a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a>
-         </li>
+            example  
+        </li>
       </ul>
    </li>
 </ul>
 
-<h2>Category 3: Multimodal and Interactive Agents</h2>
+<h2>Category 3: Steering, Controlling, and Interpreting Agents</h2>
 <ul>
    <li>
-      How should agents operate in the world and with users? 
+      How do we better specify user objectives and safety constraints in LLM agents to eliminate unintended consequences? 
       <ul>
          <li>
-            Design an interactive LLM agent that improve upon the <a href="https://arxiv.org/abs/2311.12983">GAIA benchmark</a> or that helps users “debug” real-world problems (such as fixing a tire)  
+            example  
         </li>
+      </ul>
+   </li>
+  <li>
+      How do we give users insight into agent behaviors and steer them more reliably? 
+      <ul>
          <li>
-            <a href="https://viper.cs.columbia.edu/">ViperGPT</a> 
+            example  
         </li>
+      </ul>
+   </li>
+</ul>
+
+<h2>Category 4: Auditing and Accountability</h2>
+<ul>
+   <li>
+      How do we better evaluate and audit LLM agents?
+      <ul>
          <li>
-           <a href="https://arxiv.org/abs/2303.11381">[2303.11381] MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action</a>
-         </li>
-       <li>
-           <a href="https://arxiv.org/abs/2304.10592">[2304.10592] MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models</a>
-         </li>
-      <li>
-           <a href="https://arxiv.org/abs/2404.14394">[2404.14394] A Multimodal Automated Interpretability Agent</a>
-         </li>
+            example  
+        </li>
+      </ul>
+   </li>
+  <li>
+      How do we monitor and hold LLM agents accountable for their actions?
+      <ul>
+         <li>
+            example  
+        </li>
+      </ul>
+   </li>
+</ul>
+
+<h2>Category 5: Multi-Agent Safety and Security</h2>
+<ul>
+   <li>
+      What novel failure modes occur in multi-agent systems? 
+      <ul>
+         <li>
+            example
+        </li>
+      </ul>
+   </li>
+</ul>
+
+<h2>Category 6: Environmental and Societal Impact of Agents</h2>
+<ul>
+   <li>
+      What will be the environmental cost of agents? 
+      <ul>
+         <li>
+            example
+        </li>
+      </ul>
+   </li>
+  <li>
+      Are agents fair? How might their deployment impact societal values or influence economic incentives? How should we govern them? 
+      <ul>
+         <li>
+            example
+        </li>
       </ul>
    </li>
 </ul>
