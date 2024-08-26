@@ -1,6 +1,6 @@
 ---
 title: Fundamentals Track
-description: TODO Description for the fundamentals track is about one to two sentences and serves as a brief explanation of the track.
+description: Enhance core agent capabilities in memory, planning, reasoning, tool-use, and multimodal interactions. Improve existing frameworks, design novel prompting schemes, and develop better methods for agents to interact with various tools and environments.
 date: 2020-01-04 14:40:45
 ---
 
