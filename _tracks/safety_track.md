@@ -1,6 +1,6 @@
 ---
 title: Safety Track
-description: TODO Description for the safety track is about one to two sentences and serves as a brief explanation of the track.
+description: Address critical safety concerns in AI agent deployment, including preventing misuse, ensuring privacy, improving interpretability, and assessing broader societal impacts. Develop methods for better control, auditing, and accountability of AI agents in various applications and multi-agent systems.
 date: 2020-01-04 14:40:45
 ---
 
