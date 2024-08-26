@@ -1,6 +1,6 @@
 ---
 title: Applications Track
-description: TODO Description for the benchmarks track is about one to two sentences and serves as a brief explanation of the track.
+description: Develop innovative LLM-based agents for various domains, including coding assistants, customer service, regulatory compliance, data science, AI scientists, and personal assistants. Focus on both hard-design problems (novel domain-specific tools) and soft-design problems (high-fidelity human simulations and improved AI agent interfaces).
 date: 2020-01-04 14:40:45
 ---
 
