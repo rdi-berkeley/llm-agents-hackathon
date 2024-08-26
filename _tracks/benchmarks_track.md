@@ -1,6 +1,6 @@
 ---
 title: Benchmarks Track
-description: TODO Description for the benchmarks track is about one to two sentences and serves as a brief explanation of the track.
+description: Create or improve AI agent benchmarks for novel tasks or extend existing ones. Focus on developing multi-modal or multi-agent benchmarks, improving evaluation methods, and creating more robust and efficient testing environments for AI agents.
 date: 2020-01-04 14:40:45
 ---
 
