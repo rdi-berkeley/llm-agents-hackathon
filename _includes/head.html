@@ -122,20 +122,11 @@
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
 
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
-
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LLM Agents Hackathon" />
+  <meta name="twitter:description"
+      content="Hackathon on LLM Agents hosted by RDI at UC Berkeley." />
+  <meta name="twitter:image" content="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/llm_agents_hackathon_banner.png" />
 
   {% include matomo.html %}
 
