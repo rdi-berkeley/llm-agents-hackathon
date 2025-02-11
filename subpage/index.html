@@ -47,6 +47,23 @@ layout: page
         background-color: #dcbf72;     /* Darker shade on hover */
     }
 
+    .winner-button {
+        font-family: Inter, sans-serif; /* Change the font */
+        font-size: 20px;               /* Adjust the font size */
+        padding: 25px 32px;            /* Add some padding */
+        width: 600px;
+        background-color: #ffbc03e4;     /* Set background color */
+        color: black;                  /* Set text color */
+        border: solid 0.5px #30303060;     /* Set border */
+        border-radius: 10px;           /* Round corners */
+        cursor: pointer;               /* Change cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    
+    .winner-button:hover {
+        background-color: #dcbf72;     /* Darker shade on hover */
+    }
+
     .button-row-container {
       display: flex;
       justify-content: center;
@@ -65,13 +82,15 @@ layout: page
   It is <b>open to the public</b> and will be held both virtually and in-person at UC Berkeley. 
 </p>
 
-<h3> Our hackathon has concluded. Thank you for participating! Join our [Spring 2025 Advanced Large Language Model Agents MOOC](https://llmagents-learning.org/sp25) today!</h3>
+<h4> Our hackathon has concluded. Thank you for participating! Join our <a href="https://llmagents-learning.org/sp25">Spring 2025 Advanced Large Language Model Agents MOOC</a> today!</h4>
 
 
 <div class="center-container" style="gap: 20px">
 <!--   <button class="styled-button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSevYR6VaYK5FkilTKwwlsnzsn8yI_rRLLqDZj0NH7ZL_sCs_g/viewform', '_blank')">LLM Agents Hackathon Participant Signup</button>
   <button class="styled-button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdKesnu7G_7M1dR-Uhb07ubvyZxcw6_jcl8klt-HuvahZvpvA/viewform?usp=sf_link', '_blank')">LLM Agents Hackathon Team Signup</button> -->
-  <button class="styled-button" href="#winners">Congratulations to our Hackathon Winner!</button>
+  <button class="winner-button" onclick="document.getElementById('winners').scrollIntoView({ behavior: 'smooth' });">
+    Congratulations to our Hackathon Winner!
+  </button>
 </div>
   
 <!-- <h3> Thank you for participating, please register for ZKP Closing Workshop, Hackathon Demos & Awards Ceremony, plus Career Fair & Dev Info Reception, on Tuesday, May 2, 5-8pm PDT, offered both virtually and in-person at Wozniak Lounge, Soda Hall, UC Berkeley: </h3>
